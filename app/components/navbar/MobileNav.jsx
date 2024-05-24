@@ -3,8 +3,8 @@ const MobileNav = ({ isOpen, navItems }) => {
     <ul
       className={`${
         isOpen
-          ? "translate-x-0 w-screen h-screen bg-white text-black transition-transform duration-700 flex-col absolute inset-0 flex justify-center items-center gap-5 text-2xl sm:hidden"
-          : "translate-x-[-200vw] w-screen h-screen bg-white text-black transition-transform duration-700 flex-col absolute inset-0 flex justify-center items-center gap-5 text-2xl sm:hidden"
+          ? "translate-x-0 max-w-screen h-screen bg-white text-black transition-transform duration-700 flex-col flex justify-center items-center gap-5 text-2xl sm:hidden fixed inset-0 z-40"
+          : "translate-x-[-200vw] max-w-screen h-screen bg-white text-black transition-transform duration-700 flex-col flex justify-center items-center gap-5 text-2xl sm:hidden absolute inset-0 z-40"
       }`}
     >
       {" "}

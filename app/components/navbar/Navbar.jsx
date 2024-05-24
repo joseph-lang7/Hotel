@@ -13,15 +13,17 @@ const Navbar = () => {
     { label: "Contact", href: "/contact" },
   ];
   return (
-    <nav className="max-w-screen bg-transparent py-8 px-8 justify-between flex">
-      <div className="flex items-center z-20">Logo</div>
-      <DesktopNav navItems={navItems} />
-      <div className="text-black sm:hidden block z-20">
-        <Hamburger toggled={isOpen} toggle={setOpen} />
-      </div>
+    <>
+      <nav className="max-w-screen bg-transparent py-8 px-8 justify-between flex">
+        <div className="flex items-center font-bold text-3xl z-50">Hotel</div>
+        <DesktopNav navItems={navItems} />
+        <div className="text-black sm:hidden block z-50">
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+        </div>
+        <RectangleButton content="Book Now" />
+      </nav>
       <MobileNav isOpen={isOpen} navItems={navItems} />
-      <RectangleButton content="Book Now" />
-    </nav>
+    </>
   );
 };
 
