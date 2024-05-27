@@ -1,0 +1,50 @@
+import React from "react";
+import RectangleButton from "../rectangle-button/RectangleButton";
+import Container from "../container/Container";
+import Image from "next/image";
+const Accommodations = () => {
+  return (
+    <div className="max-w-screen flex justify-center h-[800px] xl:h-[500px] my-20">
+      <div className="flex max-w-[450px] sm:max-w-[500px] md:max-w-[700px] xl:max-w-[1200px]  2xl:max-w-[1400px] flex-col xl:flex-row gap-5 w-full">
+        {/* Text container */}
+        <div className="w-full ">
+          <div className=" flex flex-col gap-5 w-full">
+            <p className="text-[#B89146] max-w-[400px]">Accommodations</p>
+            <h4 className="text-3xl leading-[50px] max-w-[400px]">
+              Welcome To Our Hotel And Resort
+            </h4>
+            <p className="max-w-[400px]">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vel
+              eaque tempora maxime deserunt et rerum ea consequatur debitis.
+              Repudiandae.
+            </p>
+
+            <RectangleButton content="Read More" width="width-[200px]" />
+          </div>
+        </div>
+        {/* Image container */}
+        <div className=" w-full max-w-[800px] h-full relative">
+          <div className="absolute bottom-0 w-full max-w-[500px] h-[300px] overflow-hidden">
+            <Image
+              src="https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Bedroom"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+          <div className="absolute top-0 right-0 h-[300px] w-full max-w-[320px]">
+            {" "}
+            <Image
+              src="https://images.pexels.com/photos/6782568/pexels-photo-6782568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Bedroom"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Accommodations;
