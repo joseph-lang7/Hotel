@@ -4,7 +4,7 @@ import Image from "next/image";
 const Accommodations = () => {
   return (
     <div className="max-w-screen flex justify-center md:h-[1000px] xl:h-[700px] pt-20 px-5">
-      <div className="flex max-w-[450px] sm:max-w-[500px] md:max-w-[700px] xl:max-w-[1200px]  2xl:max-w-[1400px] flex-col xl:flex-row gap-5 w-full">
+      <div className="flex max-w-[450px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1200px]  2xl:max-w-[1400px] flex-col lg:flex-row gap-5 w-full">
         {/* Text container */}
         <div className="w-full ">
           <div className=" flex flex-col gap-5 w-full">
@@ -24,7 +24,7 @@ const Accommodations = () => {
         </div>
         {/* Image container */}
         <div className=" w-full max-w-[800px] h-[400px] md:h-[500px] relative">
-          <div className="absolute bottom-0 w-full md:w-[500px] h-[300px] md:h-[350px]">
+          <div className="absolute bottom-0 w-full md:w-[500px] lg:w-full xl:w-[500px] h-[300px] md:h-[350px]">
             <Image
               src="https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Bedroom"

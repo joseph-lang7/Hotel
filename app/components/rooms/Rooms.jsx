@@ -19,7 +19,7 @@ const Rooms = () => {
 
   return (
     <div className="max-w-screen flex justify-center h-auto mt-2 px-5 bg-[#F7F7F7] py-20">
-      <div className="flex max-w-[450px] sm:max-w-[500px] md:max-w-[700px] xl:max-w-[1200px]  2xl:max-w-[1400px] flex-col xl:flex-row gap-5 w-full">
+      <div className="flex max-w-[450px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1200px]  2xl:max-w-[1400px] flex-col xl:flex-row gap-5 w-full">
         <div className="w-full flex flex-col items-center gap-5">
           <div className="w-full flex flex-col xl:flex-row gap-5">
             <div className="flex flex-col gap-1 w-full text-center">
