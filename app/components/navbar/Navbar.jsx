@@ -14,8 +14,8 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="max-w-screen bg-transparent py-8 px-5 justify-between flex">
-        <div className="flex items-center font-bold text-3xl z-50">Hotel</div>
+      <nav className="max-w-screen bg-transparent py-4 px-4 justify-between flex">
+        <div className="flex items-center font-bold text-2xl z-50">Hotel</div>
         <DesktopNav navItems={navItems} />
         <div className="text-black lg:hidden block z-50">
           <Hamburger toggled={isOpen} toggle={setOpen} />
