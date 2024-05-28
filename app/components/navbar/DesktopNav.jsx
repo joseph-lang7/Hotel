@@ -1,6 +1,6 @@
 const DesktopNav = ({ navItems }) => {
   return (
-    <ul className=" gap-5 items-center hidden sm:flex">
+    <ul className=" gap-5 items-center hidden lg:flex">
       {navItems.map((navItem) => (
         <li
           className="hover:text-[#b89246] transition-colors duration-300 cursor-pointer"
