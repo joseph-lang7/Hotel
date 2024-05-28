@@ -1,6 +1,4 @@
 import React from "react";
-import RectangleButton from "../rectangle-button/RectangleButton";
-
 const Banner = () => {
   return (
     <div

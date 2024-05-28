@@ -1,4 +1,5 @@
 import Accommodations from "./components/accommodations/Accommodations";
+import Amenities from "./components/amenities/Amenities";
 import Banner from "./components/banner/Banner";
 import Hero from "./components/hero/Hero";
 import Rooms from "./components/rooms/Rooms";
@@ -9,6 +10,7 @@ export default function Home() {
       <Accommodations />
       <Rooms />
       <Banner />
+      <Amenities />
     </>
   );
 }
