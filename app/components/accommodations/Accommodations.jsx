@@ -1,10 +1,9 @@
 import React from "react";
 import RectangleButton from "../rectangle-button/RectangleButton";
-import Container from "../container/Container";
 import Image from "next/image";
 const Accommodations = () => {
   return (
-    <div className="max-w-screen flex justify-center md:h-[900px] xl:h-[500px] my-20 px-5">
+    <div className="max-w-screen flex justify-center md:h-[1000px] xl:h-[700px] pt-20 px-5">
       <div className="flex max-w-[450px] sm:max-w-[500px] md:max-w-[700px] xl:max-w-[1200px]  2xl:max-w-[1400px] flex-col xl:flex-row gap-5 w-full">
         {/* Text container */}
         <div className="w-full ">
