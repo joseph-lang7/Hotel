@@ -30,7 +30,6 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-2 p-5 justify-center pl-8 pr-8">
             <p className="text-slate-400 text-sm">Room</p>
-
             <select
               name="roomCount"
               id="roomCount"
