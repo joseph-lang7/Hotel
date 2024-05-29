@@ -4,6 +4,7 @@ import Banner from "./components/banner/Banner";
 import Hero from "./components/hero/Hero";
 import Rooms from "./components/rooms/Rooms";
 import Services from "./components/services/Services";
+import Carousel from "./components/carousel/Carousel";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner />
       <Amenities />
       <Services />
+      <Carousel />
     </>
   );
 }
