@@ -3,11 +3,11 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      className="max-w-screen h-[900px] md:h-[800px] bg-cover bg-center relative"
+      className="max-w-screen h-[1200px] md:h-[1100px] bg-cover bg-center relative"
       style={{ backgroundImage: "url(/photos/bedroom.jpg)" }}
     >
-      <div className="w-full text-white font-bold h-1/2 flex items-center justify-center">
-        <h1 className="text-center text-3xl md:text-6xl">
+      <div className="w-full text-white font-bold h-3/4 flex items-center justify-center">
+        <h1 className="text-center text-5xl md:text-6xl">
           The Best Hotel <span className="block">Deals in the World</span>
         </h1>
       </div>

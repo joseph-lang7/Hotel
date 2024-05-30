@@ -14,14 +14,14 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="max-w-screen bg-transparent py-4 px-4 justify-between flex">
+      <nav className="w-screen bg-black py-4 px-10 justify-between flex fixed text-white z-50">
         <div className="flex items-center font-bold text-2xl z-50">Hotel</div>
         <DesktopNav navItems={navItems} />
-        <div className="text-black lg:hidden block z-50">
+        <div className="lg:hidden block z-50 text-white">
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
         <div className="hidden lg:block">
-          <RectangleButton content="Book Now" />
+          <RectangleButton content="Book Now" bg="bg-white" />
         </div>
       </nav>
       <MobileNav isOpen={isOpen} navItems={navItems} />
