@@ -5,12 +5,11 @@ import RoomCard from "./RoomCard";
 import { useState } from "react";
 
 const Rooms = () => {
-  const [allRooms, setAllRooms] = useState(true);
-  const [luxuryRooms, setLuxuryRooms] = useState(false);
-  const [singleRooms, setSingleRooms] = useState(false);
   const [smallSuite, setSmallSuite] = useState(false);
+  const [smallSuitePlus, setSmallSuitePlus] = useState(false);
   const [familyRoom, setFamilyRoom] = useState(false);
-
+  const [singleRoom, setSingleRoom] = useState(false);
+  const [luxuryRoom, setLuxuryRoom] = useState(false);
   const [selectedButton, setSelectedButton] = useState("All Rooms");
 
   const handleClick = (buttonName) => {
@@ -62,30 +61,45 @@ const Rooms = () => {
                   price="159"
                   roomType="Small Suite"
                   colSpan="col-span-1"
+                  onMouseEnter={() => setSmallSuite(true)}
+                  onMouseLeave={() => setSmallSuite(false)}
+                  isHovered={smallSuite}
                 />
                 <RoomCard
                   imageUrl="small-suite2.jpg"
                   price="199"
                   roomType="Small Suite+"
                   colSpan="lg:col-span-2"
+                  onMouseEnter={() => setSmallSuitePlus(true)}
+                  onMouseLeave={() => setSmallSuitePlus(false)}
+                  isHovered={smallSuitePlus}
                 />
                 <RoomCard
                   imageUrl="family-room.jpg"
                   price="320"
                   roomType="Family Room"
                   colSpan="col-span-1"
+                  onMouseEnter={() => setFamilyRoom(true)}
+                  onMouseLeave={() => setFamilyRoom(false)}
+                  isHovered={familyRoom}
                 />
                 <RoomCard
                   imageUrl="single-room.jpg"
                   price="149"
                   roomType="Single Room"
                   colSpan="lg:col-span-2"
+                  onMouseEnter={() => setSingleRoom(true)}
+                  onMouseLeave={() => setSingleRoom(false)}
+                  isHovered={singleRoom}
                 />
                 <RoomCard
                   imageUrl="luxury-room.jpg"
                   price="299"
                   roomType="Luxury Room"
                   colSpan="lg:col-span-3 xl:col-span-2"
+                  onMouseEnter={() => setLuxuryRoom(true)}
+                  onMouseLeave={() => setLuxuryRoom(false)}
+                  isHovered={luxuryRoom}
                 />
               </>
             )}
@@ -95,6 +109,9 @@ const Rooms = () => {
                 price="299"
                 roomType="Luxury Room"
                 colSpan="lg:col-span-2"
+                onMouseEnter={() => setLuxuryRoom(true)}
+                onMouseLeave={() => setLuxuryRoom(false)}
+                isHovered={luxuryRoom}
               />
             )}
             {selectedButton === "Single" && (
@@ -103,6 +120,9 @@ const Rooms = () => {
                 price="149"
                 roomType="Single Room"
                 colSpan="lg:col-span-2"
+                onMouseEnter={() => setSingleRoom(true)}
+                onMouseLeave={() => setSingleRoom(false)}
+                isHovered={singleRoom}
               />
             )}
             {selectedButton === "Small Suite" && (
@@ -112,12 +132,18 @@ const Rooms = () => {
                   price="159"
                   roomType="Small Suite"
                   colSpan="col-span-1"
+                  onMouseEnter={() => setSmallSuite(true)}
+                  onMouseLeave={() => setSmallSuite(false)}
+                  isHovered={smallSuite}
                 />
                 <RoomCard
                   imageUrl="small-suite2.jpg"
                   price="199"
                   roomType="Small Suite+"
                   colSpan="lg:col-span-2"
+                  onMouseEnter={() => setSmallSuitePlus(true)}
+                  onMouseLeave={() => setSmallSuitePlus(false)}
+                  isHovered={smallSuitePlus}
                 />
               </>
             )}
@@ -125,8 +151,11 @@ const Rooms = () => {
               <RoomCard
                 imageUrl="family-room.jpg"
                 price="320"
-                roomType="Family"
+                roomType="Family Room"
                 colSpan="col-span-1"
+                onMouseEnter={() => setFamilyRoom(true)}
+                onMouseLeave={() => setFamilyRoom(false)}
+                isHovered={familyRoom}
               />
             )}
           </div>
