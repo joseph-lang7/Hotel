@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Rooms from "./components/rooms/Rooms";
 import Services from "./components/services/Services";
 import Carousel from "./components/carousel/Carousel";
+import Blog from "./components/blog/Blog";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Amenities />
       <Services />
       <Carousel />
+      <Blog />
     </>
   );
 }
