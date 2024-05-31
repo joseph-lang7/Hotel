@@ -25,7 +25,7 @@ const Navbar = () => {
           <RectangleButton content="Book Now" bg="bg-white" />
         </div>
       </nav>
-      <MobileNav isOpen={isOpen} navItems={navItems} />
+      <MobileNav setOpen={setOpen} isOpen={isOpen} navItems={navItems} />
     </>
   );
 };

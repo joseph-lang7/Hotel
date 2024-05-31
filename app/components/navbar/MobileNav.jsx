@@ -1,4 +1,5 @@
-const MobileNav = ({ isOpen, navItems }) => {
+import Link from "next/link";
+const MobileNav = ({ setOpen, isOpen, navItems }) => {
   return (
     <ul
       className={`${
@@ -13,7 +14,9 @@ const MobileNav = ({ isOpen, navItems }) => {
           className="hover:text-[#b89246] transition-colors duration-300 cursor-pointer"
           key={navItem.href}
         >
-          {navItem.label}
+          <Link onClick={() => setOpen(!isOpen)} href={navItem.href}>
+            {navItem.label}
+          </Link>
         </li>
       ))}
     </ul>

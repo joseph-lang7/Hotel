@@ -1,3 +1,4 @@
+import Link from "next/link";
 const DesktopNav = ({ navItems }) => {
   return (
     <ul className=" gap-5 items-center hidden lg:flex">
@@ -6,7 +7,7 @@ const DesktopNav = ({ navItems }) => {
           className="hover:text-[#b89246] transition-colors duration-300 cursor-pointer"
           key={navItem.href}
         >
-          {navItem.label}
+          <Link href={navItem.href}>{navItem.label}</Link>
         </li>
       ))}
     </ul>
