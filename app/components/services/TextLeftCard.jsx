@@ -1,18 +1,14 @@
 import React from "react";
 import RectangleButton from "../rectangle-button/RectangleButton";
-import Image from "next/image";
 const TextLeftCard = ({ src, alt, title, subtitle }) => {
   return (
     <div className="w-full h-min 2xl:h-full flex flex-col 2xl:flex-row-reverse relative justify-end">
       <div className="w-full 2xl:w-8/12 h-auto 2xl:h-[600px]">
         <div className="2xl:absolute static inset-0 2xl:right-0 max-w-full h-min 2xl:h-full flex 2xl:items-center justify-end">
-          <div className="h-1/4 w-full 2xl:w-1/2 flex 2xl:items-center items-start">
-            <Image
+          <div className="h-[500px] w-full 2xl:w-1/2 flex 2xl:items-center items-start">
+            <img
               src={src}
               alt={alt}
-              layout="responsive"
-              width={800}
-              height={800}
               className="w-full h-full 2xl:max-h-[450px] object-cover"
             />
           </div>

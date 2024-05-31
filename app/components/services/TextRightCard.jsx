@@ -1,19 +1,15 @@
 import React from "react";
 import RectangleButton from "../rectangle-button/RectangleButton";
-import Image from "next/image";
 const TextRightCard = ({ src, alt, title, subtitle }) => {
   return (
     <div className="w-full h-min 2xl:h-full flex flex-col 2xl:flex-row relative justify-end">
       <div className="w-full 2xl:w-8/12 h-auto 2xl:h-[600px]">
-        <div className="2xl:absolute static inset-0 top-0 2xl:left-0 max-w-full h-min 2xl:h-full flex 2xl:items-center items-start">
-          <div className="h-1/2 2xl:h-full w-full 2xl:w-1/2 flex 2xl:items-center items-start">
-            <Image
+        <div className="2xl:absolute static inset-0 top-0 2xl:left-0 w-full h-min 2xl:h-full flex 2xl:items-center items-start">
+          <div className="h-[500px] 2xl:h-full w-full 2xl:w-1/2 flex 2xl:items-center items-start">
+            <img
               src={src}
               alt={alt}
-              layout="responsive"
-              width={800}
-              height={800}
-              className="max-w-full h-full 2xl:max-h-[450px] object-cover"
+              className="w-full h-full 2xl:max-h-[450px] object-cover"
             />
           </div>
         </div>
