@@ -23,7 +23,7 @@ const Accommodations = () => {
         </div>
         {/* Image container */}
         <div className=" w-full max-w-[800px] h-[400px] md:h-[500px] relative">
-          <div className="absolute bottom-0 w-full md:w-[500px] lg:w-full xl:w-[500px] h-[300px] md:h-[350px]">
+          <div className="absolute bottom-0 w-full md:w-[500px] lg:w-full xl:w-[500px] h-auto md:h-[350px]">
             <img
               src="https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Bedroom"
