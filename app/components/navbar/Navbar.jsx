@@ -1,6 +1,6 @@
 "use client";
 import { Squash as Hamburger } from "hamburger-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 import RectangleButton from "../rectangle-button/RectangleButton";
@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="w-full bg-black py-4 px-10 justify-between flex fixed text-white z-50">
+      <nav className="w-full bg-black py-4 px-10 justify-between flex text-white fixed z-50">
         <Logo />
         <DesktopNav navItems={navItems} />
         <div className="lg:hidden flex items-center z-50 text-white">
