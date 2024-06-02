@@ -1,11 +1,11 @@
 import React from "react";
-import RectangleButton from "../rectangle-button/RectangleButton";
-const TextRightCard = ({ src, alt, title, subtitle }) => {
+import RectangleButton from "@/app/components/rectangle-button/RectangleButton";
+const TextLeftCard = ({ src, alt, title, subtitle }) => {
   return (
-    <div className="w-full h-min 2xl:h-full flex flex-col 2xl:flex-row relative justify-end">
+    <div className="w-full h-min 2xl:h-full flex flex-col 2xl:flex-row-reverse relative justify-end">
       <div className="w-full 2xl:w-8/12 h-auto 2xl:h-[600px]">
-        <div className="2xl:absolute static inset-0 top-0 2xl:left-0 w-full h-min 2xl:h-full flex 2xl:items-center items-start">
-          <div className="h-[500px] 2xl:h-full w-full 2xl:w-1/2 flex 2xl:items-center items-start">
+        <div className="2xl:absolute static inset-0 2xl:right-0 max-w-full h-min 2xl:h-full flex 2xl:items-center justify-end">
+          <div className="h-[500px] w-full 2xl:w-1/2 flex 2xl:items-center items-start">
             <img
               src={src}
               alt={alt}
@@ -14,7 +14,7 @@ const TextRightCard = ({ src, alt, title, subtitle }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end w-full  2xl:w-11/12 items-center bg-[#F7F7F7]">
+      <div className="flex justify-center w-full  2xl:w-11/12 items-center bg-[#F7F7F7] h-full">
         <div className="flex flex-col w-full 2xl:w-5/6 gap-5 bottom-0 left-5 static p-10 ">
           <p className="text-[#B89146] font-bold text-sm">{subtitle}</p>
           <h4 className="text-3xl">{title}</h4>
@@ -31,4 +31,4 @@ const TextRightCard = ({ src, alt, title, subtitle }) => {
   );
 };
 
-export default TextRightCard;
+export default TextLeftCard;

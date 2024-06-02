@@ -1,7 +1,6 @@
 import React from "react";
 import Hero2 from "../components/hero2/Hero2";
-import TeamMemberCard from "../components/teamMemberCard.jsx/TeamMemberCard";
-
+import TeamMemberCard from "../pageComponents/teampage/teamMemberCard.jsx/TeamMemberCard";
 const TeamPage = () => {
   return (
     <div>

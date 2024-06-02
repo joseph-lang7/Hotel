@@ -3,7 +3,7 @@ import Link from "next/link";
 const Hero2Text = ({ title }) => {
   return (
     <div className="absolute flex flex-col justify-center items-center w-full h-full text-white font-bold gap-4">
-      <h4 className="text-5xl">Our Team</h4>
+      <h4 className="text-5xl">{title}</h4>
       <div className="flex gap-1">
         <Link
           className="hover:text-[#b89246] transition-colors duration-500"

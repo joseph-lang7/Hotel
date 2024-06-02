@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Icon from "../icon/Icon";
+import Icon from "@/app/components/icon/Icon";
 import { FaFacebookF } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";

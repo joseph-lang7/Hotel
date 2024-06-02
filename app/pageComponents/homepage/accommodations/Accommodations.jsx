@@ -1,5 +1,5 @@
 import React from "react";
-import RectangleButton from "../rectangle-button/RectangleButton";
+import RectangleButton from "@/app/components/rectangle-button/RectangleButton";
 const Accommodations = () => {
   return (
     <div className="max-w-screen flex justify-center h-auto py-20 px-5">
