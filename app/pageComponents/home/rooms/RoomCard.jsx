@@ -27,8 +27,8 @@ const RoomCard = ({
         <div
           className={`${
             isHovered
-              ? "translate-y-[-10] opacity-100 flex flex-col mt-5"
-              : "translate-y-5 opacity-0"
+              ? "opacity-100 flex flex-col mt-5"
+              : "translate-y-5 opacity-0 mt-0"
           } transition-all duration-300`}
         >
           <Link
