@@ -16,7 +16,7 @@ const TeamMemberCard = ({ name, position, imageUrl }) => {
         <div className="w-full h-full">
           <div
             className={`${
-              isHovered ? "h-[100%] opacity-70" : "h-[30%] opacity-0"
+              isHovered ? "h-[100%] opacity-70" : "h-[40%] opacity-0"
             } bg-black transition-all duration-500 h-full w-full absolute bg-cover bg-center`}
           ></div>
           <div
