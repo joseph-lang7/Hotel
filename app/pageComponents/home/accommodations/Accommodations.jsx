@@ -17,7 +17,11 @@ const Accommodations = () => {
               Repudiandae.
             </p>
             <div className="my-5">
-              <RectangleButton content="Read More" width="width-[200px]" />
+              <RectangleButton
+                content="Read More"
+                width="width-[200px]"
+                href="/blog"
+              />
             </div>
           </div>
         </div>

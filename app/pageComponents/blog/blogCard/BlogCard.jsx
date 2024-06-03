@@ -37,7 +37,7 @@ const BlogCard = ({ title, description, imageUrl, date }) => {
           <div className="flex flex-col gap-5 pb-5">
             <h4 className="text-2xl">{title}</h4>
             <p>{description}</p>
-            <RectangleButton content="Read More" />
+            <RectangleButton content="Read More" href="/blog" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 const Hero = () => {
   return (
     <div
@@ -41,11 +42,13 @@ const Hero = () => {
               <option value="5">5 Room</option>
             </select>
           </div>
-          <div className="h-full w-full">
-            <button className="h-full w-full p-5 text-white bg-[#B89146] hover:bg-black transition-colors duration-500">
-              Check Now
-            </button>
-          </div>
+          <Link href="/contact">
+            <div className="h-full w-full">
+              <button className="h-full w-full p-5 text-white bg-[#B89146] hover:bg-black transition-colors duration-500">
+                Check Now
+              </button>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

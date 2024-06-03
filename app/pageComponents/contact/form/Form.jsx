@@ -31,7 +31,7 @@ const Form = () => {
           <LuMessagesSquare />
         </div>
       </div>
-      <RectangleButton content="Submit" />
+      <RectangleButton content="Submit" href="/contact" />
     </form>
   );
 };

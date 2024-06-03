@@ -22,7 +22,7 @@ const Navbar = () => {
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
         <div className="hidden lg:flex  lg:items-center">
-          <RectangleButton content="Book Now" bg="bg-white" />
+          <RectangleButton content="Book Now" bg="bg-white" href="/contact" />
         </div>
       </nav>
       <MobileNav setOpen={setOpen} isOpen={isOpen} navItems={navItems} />

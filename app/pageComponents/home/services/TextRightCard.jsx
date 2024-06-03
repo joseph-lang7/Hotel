@@ -23,7 +23,7 @@ const TextRightCard = ({ src, alt, title, subtitle }) => {
             Accusantium, voluptatem!
           </p>
           <div className="flex">
-            <RectangleButton content="Read More" />
+            <RectangleButton content="Read More" href="/blog" />
           </div>
         </div>
       </div>
