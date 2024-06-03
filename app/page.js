@@ -1,11 +1,11 @@
-import Accommodations from "./pageComponents/homepage/accommodations/Accommodations";
-import Amenities from "./pageComponents/homepage/amenities/Amenities";
-import Banner from "./pageComponents/homepage/banner/Banner";
+import Accommodations from "./pageComponents/homePage/accommodations/Accommodations";
+import Amenities from "./pageComponents/homePage/amenities/Amenities";
+import Banner from "./pageComponents/homePage/banner/Banner";
 import Hero from "./components/hero/Hero";
-import Rooms from "./pageComponents/homepage/rooms/Rooms";
-import Services from "./pageComponents/homepage/services/Services";
-import Carousel from "./pageComponents/homepage/carousel/Carousel";
-import Blog from "./pageComponents/homepage/blog/Blog";
+import Rooms from "./pageComponents/homePage/rooms/Rooms";
+import Services from "./pageComponents/homePage/services/Services";
+import Carousel from "./pageComponents/homePage/carousel/Carousel";
+import Blog from "./pageComponents/homePage/blog/Blog";
 export default function Home() {
   return (
     <>

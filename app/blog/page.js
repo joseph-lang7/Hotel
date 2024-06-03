@@ -1,9 +1,9 @@
 import Hero2 from "../components/hero2/Hero2";
-import BlogCards from "../pageComponents/blogpage/blogCards/BlogCards";
-import Category from "../pageComponents/blogpage/category/Category";
-import RecentPosts from "../pageComponents/blogpage/recentPosts/RecentPosts";
-import SearchBar from "../pageComponents/blogpage/searchBar/SearchBar";
-import Tags from "../pageComponents/blogpage/tags/Tags";
+import BlogCards from "../pageComponents/blogPage/blogCards/BlogCards";
+import Category from "../pageComponents/blogPage/category/Category";
+import RecentPosts from "../pageComponents/blogPage/recentPosts/RecentPosts";
+import SearchBar from "../pageComponents/blogPage/searchBar/SearchBar";
+import Tags from "../pageComponents/blogPage/tags/Tags";
 const BlogPage = () => {
   return (
     <div>
