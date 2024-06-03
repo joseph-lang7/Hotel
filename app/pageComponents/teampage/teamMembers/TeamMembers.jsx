@@ -1,5 +1,5 @@
 import React from "react";
-import TeamMemberCard from "../teamMemberCard.jsx/TeamMemberCard";
+import { TeamMemberCard } from "..";
 const TeamMembers = () => {
   return (
     <div className="max-w-screen flex justify-center h-auto mt-2 px-5 pt-20">

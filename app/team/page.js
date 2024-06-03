@@ -1,6 +1,6 @@
 import React from "react";
 import Hero2 from "../components/hero2/Hero2";
-import TeamMembers from "../pageComponents/teamPage/teamMembers/TeamMembers";
+import { TeamMembers } from "../pageComponents/teamPage";
 const TeamPage = () => {
   return (
     <div>

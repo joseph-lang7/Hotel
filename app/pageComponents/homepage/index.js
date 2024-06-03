@@ -1,0 +1,9 @@
+export { default as Accommodations } from "./accommodations/Accommodations";
+export { default as Amenities } from "./amenities/Amenities";
+export { default as Banner } from "./banner/Banner";
+export { default as Blog } from "./blog/Blog";
+export { default as Carousel } from "./carousel/Carousel";
+export { default as Rooms } from "./rooms/Rooms";
+export { default as Services } from "./services/Services";
+export { default as Timer } from "./timer/Timer";
+export { default as Hero } from "./hero/Hero.jsx";

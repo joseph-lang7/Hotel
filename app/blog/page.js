@@ -1,9 +1,12 @@
 import Hero2 from "../components/hero2/Hero2";
-import BlogCards from "../pageComponents/blogPage/blogCards/BlogCards";
-import Category from "../pageComponents/blogPage/category/Category";
-import RecentPosts from "../pageComponents/blogPage/recentPosts/RecentPosts";
-import SearchBar from "../pageComponents/blogPage/searchBar/SearchBar";
-import Tags from "../pageComponents/blogPage/tags/Tags";
+import {
+  BlogCards,
+  SearchBar,
+  Category,
+  RecentPosts,
+  Tags,
+} from "../pageComponents/blogPage";
+
 const BlogPage = () => {
   return (
     <div>

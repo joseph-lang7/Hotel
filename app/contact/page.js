@@ -1,6 +1,6 @@
 import React from "react";
 import Hero2 from "../components/hero2/Hero2";
-import IconWithText from "../pageComponents/contactPage/iconWithText/IconWithText";
+import { IconWithText, Form, Map } from "../pageComponents/contactPage";
 import { GrMapLocation } from "react-icons/gr";
 import { MdMailOutline } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
@@ -8,8 +8,7 @@ import Icon from "../components/icon/Icon";
 import { FaFacebookF } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
-import Form from "../pageComponents/contactPage/form/Form";
-import Map from "../pageComponents/contactPage/form/components/Map";
+
 const ContactPage = () => {
   return (
     <div>
