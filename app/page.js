@@ -7,7 +7,7 @@ import {
   Hero,
   Rooms,
   Services,
-} from "./pageComponents/homePage";
+} from "./pageComponents/home";
 export default function Home() {
   return (
     <>

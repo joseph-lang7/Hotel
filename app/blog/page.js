@@ -5,7 +5,7 @@ import {
   Category,
   RecentPosts,
   Tags,
-} from "../pageComponents/blogPage";
+} from "../pageComponents/blog";
 
 const BlogPage = () => {
   return (

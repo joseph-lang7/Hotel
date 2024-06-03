@@ -1,6 +1,6 @@
 import React from "react";
 import Hero2 from "../components/hero2/Hero2";
-import { IconWithText, Form, Map } from "../pageComponents/contactPage";
+import { IconWithText, Form, Map } from "../pageComponents/contact";
 import { GrMapLocation } from "react-icons/gr";
 import { MdMailOutline } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
