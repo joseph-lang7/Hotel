@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,tailwind,nextjs" />
+    <img src="https://skillicons.dev/icons?i=react,tailwind,nextjs,javascript" />
 
 <h1 align="center" style="color:white;">
 Hotel
