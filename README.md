@@ -9,7 +9,7 @@ Hotel
      style="float: left; margin-right: 10px;" />
 </div>
 <p style="text-align:center; color:white; margin-top:350px;" >
-A user interface application that allows users to book hotels and view hotel rooms and amenities.
+A front-end application that allows users to book hotels and view hotel rooms and amenities.
 </p>
 <a style="text-decoration:underline;" href="https://hotel-jl.netlify.app/">Live site</a>
 <h2 style="color:white;">
